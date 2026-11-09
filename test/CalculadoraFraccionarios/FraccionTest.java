@@ -25,8 +25,8 @@ class FraccionTest {
 				() -> assertEquals(19,f.sumar(g).getNum()),
 				() -> assertEquals(12,f.sumar(g).getDen()),
 				() -> assertEquals(i,g.restar(f)),
-				//() -> assertEquals(i,g.multiplicar(f), "No nos diÛ la multiplicaciÛn"),
-				() -> assertEquals(j,g.multiplicar(f), "OMG, nos la multiplicaciÛn")
+				//() -> assertEquals(i,g.multiplicar(f), "No nos di√≥ la multiplicaci√≥n"),
+				() -> assertEquals(j,g.multiplicar(f), "OMG, nos la multiplicaci√≥n")
 		);
 	}
 	
@@ -35,7 +35,7 @@ class FraccionTest {
 		Fraccion f,g, h;
 		f=new Fraccion(3,4);
 		g=new Fraccion(5,6);
-		h=new Fraccion(9,10);
+		h=new Fraccion(9,11);
 		
 		assertEquals(h,f.dividir(g));
 	}
